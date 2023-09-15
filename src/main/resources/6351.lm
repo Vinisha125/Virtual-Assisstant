@@ -1,0 +1,54 @@
+Language model created by QuickLM on Fri Sep 15 09:44:44 EDT 2023
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 9 words
+
+\data\
+ngram 1=9
+ngram 2=12
+ngram 3=10
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.6021 CLOSE -0.2788
+-1.3010 FIREFOX -0.2430
+-1.6021 INSTAGRAM -0.2430
+-1.1249 OPEN -0.2553
+-1.6021 SHOW -0.2900
+-1.6021 WEATHER -0.2430
+-1.6021 YOUTUBE -0.2430
+
+\2-grams:
+-1.0000 <s> CLOSE 0.0000
+-0.5229 <s> OPEN 0.0000
+-1.0000 <s> SHOW 0.0000
+-0.3010 CLOSE FIREFOX 0.0000
+-0.3010 FIREFOX </s> -0.3010
+-0.3010 INSTAGRAM </s> -0.3010
+-0.7782 OPEN FIREFOX 0.0000
+-0.7782 OPEN INSTAGRAM 0.0000
+-0.7782 OPEN YOUTUBE 0.0000
+-0.3010 SHOW WEATHER 0.0000
+-0.3010 WEATHER </s> -0.3010
+-0.3010 YOUTUBE </s> -0.3010
+
+\3-grams:
+-0.3010 <s> CLOSE FIREFOX
+-0.7782 <s> OPEN FIREFOX
+-0.7782 <s> OPEN INSTAGRAM
+-0.7782 <s> OPEN YOUTUBE
+-0.3010 <s> SHOW WEATHER
+-0.3010 CLOSE FIREFOX </s>
+-0.3010 OPEN FIREFOX </s>
+-0.3010 OPEN INSTAGRAM </s>
+-0.3010 OPEN YOUTUBE </s>
+-0.3010 SHOW WEATHER </s>
+
+\end\

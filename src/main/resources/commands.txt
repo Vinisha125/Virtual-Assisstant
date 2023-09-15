@@ -1,0 +1,5 @@
+open firefox
+close firefox
+open youtube
+show weather
+open instagram
